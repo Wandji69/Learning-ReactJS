@@ -1,26 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+// import ParentComponent from './component/ParentComponent';
+import UserGreeting from './component/UserGreeting';
+// import FunctionClick from './component/FunctionClick';
+// import ClassClick from './component/ClassClick';
+// import EventBind from './component/EventBind';
+// import Greet from './component/Greet'
+// import Welcome from './component/Welcome'
+// import Hello from './component/Hello'
+// import Message from './component/Message'
+// import Counter from './component/Counter'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        {/* <FunctionClick />
+        <ClassClick /> */}
+        {/* <EventBind /> */}
+        {/* <Greet name="Djibrile" />
+        <Greet name="Wandji" heroName='Waniccoll' />
+        <Greet name="Ebako" />
+        <Hello />
+        <Welcome name='Colins chuwa' />
+        <Message />
+        <Counter /> */}
+        {/* <ParentComponent /> */}
+        <UserGreeting />
+      </div>
+    );
+  }
 }
 
 export default App;
